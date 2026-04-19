@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS work(
+	WorkId SERIAL PRIMARY KEY,
+	WorkKey VARCHAR(15) UNIQUE,
+	Title VARCHAR(50),
+	CoverId INTEGER,
+	CoverEditionKey VARCHAR(15),
+	Subject VARCHAR(50),
+	FirstPublishYear INTEGER
+);
