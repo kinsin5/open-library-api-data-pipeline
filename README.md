@@ -12,7 +12,13 @@ This project provides tools and workflows to:
 
 ## Getting Started
 
-[Add setup instructions here]
+my-project/
+├── compose.yaml
+├── dumps/
+└── api/
+    ├── Dockerfile
+    ├── requirements.txt
+    └── your_script.py
 
 ## Features
 
